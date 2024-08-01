@@ -1,0 +1,1101 @@
+{
+	"events": [
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 0.5
+		},
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1694404788.cfg"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Upon entering the building and telling the receptionist your name, you were given a room number."
+		},
+		{
+			"condition": "",
+			"definition": "1692485125-768",
+			"event_id": "dialogic_012",
+			"value": "true"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "As you headed over there, you thought about your brief conversation with Daniel. You didn't have anyone rooting for you before this morning. "
+		},
+		{
+			"character": "character-1691980664.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[speed=20]. . . .[speed=3] I've got this!"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"background": "res://assets/backgrounds/True Backgrounds/boss_office.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://assets/audio/UI Effects2/15419__pagancow__dorm-door-opening.wav",
+			"volume": -10
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Once you arrived, you entered the room and found it to be empty."
+		},
+		{
+			"character": "character-1691980664.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Um, is anyone here? I'm here for my interview."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Just as you said that -"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": false,
+			"wait_seconds": 2,
+			"waiting_skippable": false
+		},
+		{
+			"animation": "slide_in_left.gd",
+			"animation_length": 2,
+			"animation_wait": true,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1691963556.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "karen_smile",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "res://assets/audio/Sincerely.mp3",
+			"volume": -10
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1,
+			"waiting_skippable": false
+		},
+		{
+			"character": "character-1691963556.json",
+			"event_id": "dialogic_001",
+			"portrait": "(Don't change)",
+			"text": "Hi there, nice to meet you! My name is Lucy, the CEO of Angel Enterprise."
+		},
+		{
+			"character": "character-1691980664.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hello, the pleasure is all mine! I'm here to take the interview."
+		},
+		{
+			"character": "character-1691963556.json",
+			"event_id": "dialogic_001",
+			"portrait": "karen_delighted",
+			"text": "Yes, of course! Please take a seat so we can get started."
+		},
+		{
+			"background": "res://assets/backgrounds/True Backgrounds/boss_office (2).png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "character-1691963556.json",
+			"event_id": "dialogic_001",
+			"portrait": "karen_sad",
+			"text": "I'm sorry for being slightly late. I hope I didn't make you wait too long."
+		},
+		{
+			"character": "character-1691980664.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oh not at all! You're fine."
+		},
+		{
+			"character": "character-1691963556.json",
+			"event_id": "dialogic_001",
+			"portrait": "karen_delighted",
+			"text": "Thank you, that's good to hear.\nAs you may know, this interview is an incredible opportunity for you to potentially get started at a higher position than what's normally offered.\nI was honestly surprised when I saw your resume, but I'm getting ahead of myself."
+		},
+		{
+			"character": "character-1691963556.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "karen_smile",
+			"question": "Tell me how are you this morning?"
+		},
+		{
+			"choice": "I'm doing good.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1691980664.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I'm doing good, thank you for asking."
+		},
+		{
+			"character": "character-1691963556.json",
+			"event_id": "dialogic_001",
+			"portrait": "karen_smile2",
+			"text": "Is that so? I love that confidence. I'm sure you've been through many interviews already!"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "If only she’d known how many times every other employer had rejected you."
+		},
+		{
+			"choice": "I'm feeling nervous.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1691980664.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I'm feeling nervous in all honesty."
+		},
+		{
+			"character": "character-1691963556.json",
+			"event_id": "dialogic_001",
+			"portrait": "karen_smile2",
+			"text": "Is that so? Well, don’t be. I’m sure you’ve been through many interviews already!"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "If only she’d known how many times every other employer had rejected you."
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1691963556.json",
+			"event_id": "dialogic_001",
+			"portrait": "karen_smile",
+			"text": "That said, here at Angel Enterprise, we do our interviews differently. Let’s get started!"
+		},
+		{
+			"character": "character-1691963556.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "karen__o",
+			"question": "Tell me a little bit about yourself."
+		},
+		{
+			"choice": "I’m an experienced worker!",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1691980664.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I’m an experienced worke-"
+		},
+		{
+			"choice": "I’m a confident worker!",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1691980664.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I’m a confident worke-"
+		},
+		{
+			"choice": "I'm a hard worker!",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1691980664.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I’m a hard worke-"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"animation": "[No Animation]",
+			"animation_length": 0,
+			"animation_wait": false,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1691963556.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "karen_angry",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Lucy cuts you off, unimpressed at your answer."
+		},
+		{
+			"character": "character-1691963556.json",
+			"event_id": "dialogic_001",
+			"portrait": "karen_angry2",
+			"text": "No, no, no! This isn’t authentic at all!"
+		},
+		{
+			"animation": "[No Animation]",
+			"animation_length": 0,
+			"animation_wait": false,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1691963556.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "karen_angry",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1691980664.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "S-sorry?"
+		},
+		{
+			"character": "character-1691963556.json",
+			"event_id": "dialogic_001",
+			"portrait": "karen_neutral",
+			"text": "Don’t get me wrong, being professional is good, but please. You don’t need to hide behind some cookie-cutter answer."
+		},
+		{
+			"character": "character-1691963556.json",
+			"event_id": "dialogic_001",
+			"portrait": "karen_sleepy",
+			"text": "Please, for this interview you're going to have to be yourself. That's the only way I can properly evaluate you."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "The pressure is on. You haven’t trained for anything like this. Then again, you didn’t train at all."
+		},
+		{
+			"character": "character-1691963556.json",
+			"event_id": "dialogic_001",
+			"portrait": "karen_smile",
+			"text": "Let’s try again, shall we?"
+		},
+		{
+			"character": "character-1691963556.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Tell me something about yourself. Such as your favorite hobby."
+		},
+		{
+			"choice": "I love fishing!",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1693855091-867",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"character": "character-1691980664.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I love fishing! It's very relaxing for me, and it's something I really enjoy."
+		},
+		{
+			"character": "character-1691963556.json",
+			"event_id": "dialogic_001",
+			"portrait": "karen_shocked",
+			"text": "Fishing? Wow, you have got to be patient then. That's something that people tend to lack these days."
+		},
+		{
+			"character": "character-1691963556.json",
+			"event_id": "dialogic_001",
+			"portrait": "karen_annoyed",
+			"text": "Seriously, the attention span of some people get on my nerves. I blame short form content presented to kids these days.\nHere at Angel Enterprise, we pride ourselves in only the best quality content!"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Lucy seems happy with your answer!"
+		},
+		{
+			"choice": "I love to draw!",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1693855091-867",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"character": "character-1691980664.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I love to draw! Making art is great pastime for me."
+		},
+		{
+			"character": "character-1691963556.json",
+			"event_id": "dialogic_001",
+			"portrait": "karen_delighted",
+			"text": "Oh? You make art? That must mean you're pretty creative.\nMost people just want to follow trends, but we're out here trying to create new ones. Well, that and I'm not really up to date with the kids these days.\nOr what was it that they say now? [wave amp=100 freq=4] [speed=15]Slaaayyy?[/wave]"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Lucy seems happy with your answer!"
+		},
+		{
+			"choice": "I’m a bookworm!",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1693855091-867",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "2"
+		},
+		{
+			"definition": "1693855107-587",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"character": "character-1691980664.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I'm a bookworm! I love reading and writting in my off time."
+		},
+		{
+			"character": "character-1691963556.json",
+			"event_id": "dialogic_001",
+			"portrait": "karen_delighted",
+			"text": "Really? Me too! Having good literacy skills is a great trait to have. "
+		},
+		{
+			"character": "character-1691963556.json",
+			"event_id": "dialogic_001",
+			"portrait": "karen_annoyed",
+			"text": "I swear, some emails I get from within the company is completely unacceptable. It should be written professionally, not like a text message."
+		},
+		{
+			"character": "character-1691963556.json",
+			"event_id": "dialogic_001",
+			"portrait": "karen_smile_blush",
+			"text": "It's no surprise that you'd love reading! You're resume really blew me away when I first read it."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Lucy seems [wave amp=50 freq=5]really happy[/wave] with your answer!"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1691963556.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "karen_smile",
+			"question": "Tell me why you want to work here at Angel Enterprise."
+		},
+		{
+			"choice": "I need a job. ",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1691980664.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Simple. I need a job!"
+		},
+		{
+			"character": "character-1691963556.json",
+			"event_id": "dialogic_001",
+			"portrait": "karen_angry2",
+			"text": "You know that's not an actual reason,[speed=15]right?"
+		},
+		{
+			"character": "character-1691980664.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oh, um. I-I knew that. I was joking. "
+		},
+		{
+			"character": "character-1691963556.json",
+			"event_id": "dialogic_001",
+			"portrait": "karen_angry",
+			"text": ". . ."
+		},
+		{
+			"character": "character-1691963556.json",
+			"event_id": "dialogic_001",
+			"portrait": "karen_angry2",
+			"text": "Try taking this more seriously. Otherwise I will have to refer you to our town's local[color=#8B0000] clown[/color] scene."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Lucy was not happy with your answer."
+		},
+		{
+			"choice": "There's good pay!",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1693855091-867",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"character": "character-1691980664.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Well, I heard that the company offers great pay to hard working employees!"
+		},
+		{
+			"character": "character-1691963556.json",
+			"event_id": "dialogic_001",
+			"portrait": "karen_smile2",
+			"text": "It's true that we offer competive pay compared to our other competitors. "
+		},
+		{
+			"character": "character-1691963556.json",
+			"event_id": "dialogic_001",
+			"portrait": "karen_delighted2",
+			"text": "You won't be needing to strike outside in the harsh climate with us anytime soon! We treat our employees with great care and provide a multitude of benefits."
+		},
+		{
+			"character": "character-1691980664.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Almost seems too good to be true."
+		},
+		{
+			"character": "character-1691963556.json",
+			"event_id": "dialogic_001",
+			"portrait": "karen_smile",
+			"text": "Hmm? What was that?"
+		},
+		{
+			"character": "character-1691980664.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I-I knew the rumors were true!"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Lucy seems happy with your answer!"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1,
+			"waiting_skippable": true
+		},
+		{
+			"character": "character-1691963556.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "karen_sleepy",
+			"question": "What kind of mentality do you have when it comes to tackling on big projects?"
+		},
+		{
+			"choice": "Work harder!",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1693855091-867",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"character": "character-1691980664.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "If I work hard enough, any project can completed!"
+		},
+		{
+			"character": "character-1691963556.json",
+			"event_id": "dialogic_001",
+			"portrait": "karen_smile",
+			"text": "I love the work ethic, but sometimes hard work isn't enough.\nPutting in all your care and attention in a project is sure to create an incredible product."
+		},
+		{
+			"character": "character-1691963556.json",
+			"event_id": "dialogic_001",
+			"portrait": "karen_neutral",
+			"text": "But a lot of the times we have deadlines and rubrics to follow, meaning sacrifices have to be made."
+		},
+		{
+			"character": "character-1691980664.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I guess I never thought about it that way."
+		},
+		{
+			"character": "character-1691963556.json",
+			"event_id": "dialogic_001",
+			"portrait": "karen_smile2",
+			"text": "There's nothing wrong with working hard, of course. Just something to keep in mind."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Lucy seems happy with your answer!"
+		},
+		{
+			"choice": "Work faster!",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1691980664.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "If I work fast enough, any project can completed!"
+		},
+		{
+			"character": "character-1691963556.json",
+			"event_id": "dialogic_001",
+			"portrait": "karen_angry",
+			"text": "Work fast?"
+		},
+		{
+			"character": "character-1691963556.json",
+			"event_id": "dialogic_001",
+			"portrait": "karen_annoyed",
+			"text": "Let me tell you something. When you think of quality products, do you think they're made by working \"fast enough\"?"
+		},
+		{
+			"character": "character-1691963556.json",
+			"event_id": "dialogic_001",
+			"portrait": "karen_angry",
+			"text": "Think of that blue bird that goes really fast. Always running, forever jobless.\nThe poor Coyote is doing all the hard work using his mind to find new solutions, and creating contraptions!\nBut what does the bird do? Nothing! He's runs really fast and does nothing to contribute to society! "
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 0.6,
+			"waiting_skippable": true
+		},
+		{
+			"character": "character-1691980664.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "With all due respect, I don't think that analogy works as well as you think."
+		},
+		{
+			"character": "character-1691963556.json",
+			"event_id": "dialogic_001",
+			"portrait": "karen_annoyed",
+			"text": "Well then you better think fast and come up with one that does."
+		},
+		{
+			"character": "character-1691980664.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Umm..."
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You were, in fact, not fast enough to able to think of a new analogy."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Lucy was not happy with your answer."
+		},
+		{
+			"choice": "Work smarter!",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1,
+			"waiting_skippable": true
+		},
+		{
+			"character": "character-1691963556.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "karen_neutral",
+			"question": "What drives you to be ambitious?"
+		},
+		{
+			"choice": "My team motivates me.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1691980664.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Having a team supporting me is where I get my motivation!"
+		},
+		{
+			"character": "character-1691963556.json",
+			"event_id": "dialogic_001",
+			"portrait": "karen_annoyed",
+			"text": "So you're dependent on your team?\nI need people to be independent, who do not rely on others. Relying on others is ok, but should not your primary reason to stay motivated."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Lucy was not happy with your answer."
+		},
+		{
+			"choice": "Seeing projects completed",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1693855091-867",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"character": "character-1691980664.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Seeing projects being completed is what drives me to be ambitious."
+		},
+		{
+			"character": "character-1691963556.json",
+			"event_id": "dialogic_001",
+			"portrait": "karen_delighted2",
+			"text": "Yes! That's the sort of drive that's needed here at Angel Enterprise! Having an end goal to strive for is really admirable."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Lucy seems happy with your answer!"
+		},
+		{
+			"choice": "You do.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1693855091-867",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "2"
+		},
+		{
+			"definition": "1693855107-587",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"character": "character-1691980664.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You drive me ambitious."
+		},
+		{
+			"character": "character-1691963556.json",
+			"event_id": "dialogic_001",
+			"portrait": "karen_shocked_blush",
+			"text": "[speed=30]O-oh?"
+		},
+		{
+			"character": "character-1691980664.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Yeah since I'd be working under you, technically."
+		},
+		{
+			"character": "character-1691963556.json",
+			"event_id": "dialogic_001",
+			"portrait": "karen_angry",
+			"text": "Well of course! I'd be your boss. I make sure everyone is doing their very best."
+		},
+		{
+			"animation": "[No Animation]",
+			"animation_length": 0,
+			"animation_repeat": 1,
+			"animation_wait": true,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1691963556.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "karen_smile",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Lucy seems [wave amp=50 freq=5]really happy[/wave] with your answer!"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1691963556.json",
+			"event_id": "dialogic_001",
+			"portrait": "karen_neutral",
+			"text": "When it comes to working here, we expect all our employees to have certain values. These values are integral to ensuring we have a safe and efficient work enviroment."
+		},
+		{
+			"character": "character-1691963556.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "karen_smug",
+			"question": "What are those values?"
+		},
+		{
+			"choice": "L.O.V.E.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1691980664.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": " The company values are called [speed=20][color=#FFD700]L.O.V.E.[/color][speed=3]"
+		},
+		{
+			"character": "character-1691963556.json",
+			"event_id": "dialogic_001",
+			"portrait": "karen_annoyed",
+			"text": "No, that's not it. That's not it at all!"
+		},
+		{
+			"character": "character-1691963556.json",
+			"event_id": "dialogic_001",
+			"portrait": "karen_smile",
+			"text": "The company values are called [speed=20][color=#FFD700]A.C.T.I.O.N.[/color][speed=3], something that I come up with myself!\nIt stands for Accountability, Community, Transparency, Innovation, Optimism, and Niceness."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Lucy was not impressed with your answer."
+		},
+		{
+			"choice": "A.C.T.I.O.N.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1693855091-867",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"character": "character-1691980664.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": " The company values are called [speed=20][color=#FFD700]A.C.T.I.O.N.[/color][speed=3]\nIt stands for Accountability, Community, Transparency, Innovation, Optimism, and Niceness."
+		},
+		{
+			"character": "character-1691963556.json",
+			"event_id": "dialogic_001",
+			"portrait": "karen_smile2",
+			"text": "Wow I'm impressed! You really did your research."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Lucy seems happy with your answer!"
+		},
+		{
+			"choice": "P.R.I.D.E.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1691980664.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": " The company values are called [speed=20][color=#FFD700]P.R.I.D.E.[/color][speed=3]"
+		},
+		{
+			"character": "character-1691963556.json",
+			"event_id": "dialogic_001",
+			"portrait": "karen_annoyed",
+			"text": "No, that's not it."
+		},
+		{
+			"character": "character-1691963556.json",
+			"event_id": "dialogic_001",
+			"portrait": "karen_smile",
+			"text": "The company values are called [speed=20][color=#FFD700]A.C.T.I.O.N.[/color][speed=3], something that I come up with myself!\nIt stands for Accountability, Community, Transparency, Innovation, Optimism, and Niceness."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Lucy was not impressed with your answer."
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1691963556.json",
+			"event_id": "dialogic_001",
+			"portrait": "karen__o",
+			"text": "Oh it looks like it's lunch time! Do not worry, we'll grab some lunch and the interview will continue from there. Understand?"
+		},
+		{
+			"character": "character-1691980664.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Yeah yeah, no worries! "
+		},
+		{
+			"character": "character-1691963556.json",
+			"event_id": "dialogic_001",
+			"portrait": "karen_delighted",
+			"text": "Alright then, please follow me."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You both exit the room."
+		},
+		{
+			"animation": "slide_out_left.gd",
+			"animation_length": 1,
+			"animation_wait": true,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1691963556.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2
+		},
+		{
+			"background": "",
+			"event_id": "dialogic_021"
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "",
+			"volume": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"change_timeline": "timeline-1693870640.json",
+			"event_id": "dialogic_020"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1693847331.json",
+		"name": "interview"
+	}
+}

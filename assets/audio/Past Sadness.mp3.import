@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Past Sadness.mp3-ac869a6d3e031a5f4e67f029d2d93c8c.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/Past Sadness.mp3"
+dest_files=[ "res://.import/Past Sadness.mp3-ac869a6d3e031a5f4e67f029d2d93c8c.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

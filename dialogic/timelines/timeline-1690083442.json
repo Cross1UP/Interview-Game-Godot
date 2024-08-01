@@ -1,0 +1,255 @@
+{
+	"events": [
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1690080783.cfg"
+		},
+		{
+			"background": "res://assets/backgrounds/colored_desert.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 10,
+			"file": "res://assets/audio/Solve The Puzzle.ogg",
+			"volume": -15
+		},
+		{
+			"animation": "1-fade_in.gd",
+			"animation_length": 3,
+			"animation_wait": true,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1690081364.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "frog_sleep",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[wave amp=50 freq=2]ZZZZZZzzzzzzzzz.........[/wave]."
+		},
+		{
+			"event_id": "dialogic_015",
+			"id": "anchor-1690761510",
+			"index": 0,
+			"name": "wakeup"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "(There seems to be a frog asleep in the middle of a desert... it seems serene and enjoying a sunbath)"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Wake up?"
+		},
+		{
+			"choice": "Wake up?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"animation": "bounce.gd",
+			"animation_length": 1,
+			"animation_wait": true,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1690081364.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "frog_suprise",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1690081364.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Huh... oh man did I oversleep again?"
+		},
+		{
+			"choice": "Stay asleep?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1690081364.json",
+			"event_id": "dialogic_001",
+			"portrait": "frog_sleep",
+			"text": "[wave amp=50 freq=2]ZZZZZZzzzzzzzzz......[/wave]"
+		},
+		{
+			"anchor_id": "anchor-1690761510",
+			"event_id": "dialogic_016"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"animation": "swing.gd",
+			"animation_length": 1,
+			"animation_repeat": 2,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1690081364.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "(Don't change)",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1690081364.json",
+			"event_id": "dialogic_001",
+			"portrait": "frog-water",
+			"text": "Aww man... I slept for too long and now I'm [color=#0060ff]thirsty[/color]..."
+		},
+		{
+			"character": "character-1690081364.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oh sorry! Were you the one that woke me up?"
+		},
+		{
+			"character": "character-1690081364.json",
+			"event_id": "dialogic_001",
+			"portrait": "frog_suprise",
+			"text": "My name is Froggy, nice to meet you!\nDeserts are great for sunbathing, but i don't think I'll find a drink here.\n"
+		},
+		{
+			"event_id": "dialogic_015",
+			"id": "anchor-1634488067",
+			"index": 0,
+			"name": "Help"
+		},
+		{
+			"character": "character-1690081364.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "frog-water",
+			"question": "Will you help me find some [color=#0060ff]water[/color]?"
+		},
+		{
+			"choice": "Sure!",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1690081364.json",
+			"event_id": "dialogic_001",
+			"portrait": "frog_suprise",
+			"text": "Thank you! Let's a go!"
+		},
+		{
+			"choice": "No way!",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1690081364.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "What?! C'mon, don't joke around.\n[wave amp=50 freq=2]Please![/wave]"
+		},
+		{
+			"anchor_id": "anchor-1634488067",
+			"event_id": "dialogic_016"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"animation": "slide_out_right.gd",
+			"animation_length": 3,
+			"animation_wait": true,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1690081364.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"background": "",
+			"event_id": "dialogic_021"
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "",
+			"volume": 0
+		},
+		{
+			"change_timeline": "timeline-1691625427.json",
+			"event_id": "dialogic_020"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1690083442.json",
+		"name": "desert_frog"
+	}
+}

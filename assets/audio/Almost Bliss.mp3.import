@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Almost Bliss.mp3-2a78a56617c4bf4a85ebe1082dc2f1a0.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/Almost Bliss.mp3"
+dest_files=[ "res://.import/Almost Bliss.mp3-2a78a56617c4bf4a85ebe1082dc2f1a0.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

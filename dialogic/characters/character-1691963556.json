@@ -1,0 +1,93 @@
+{
+	"color": "#fff6c0f1",
+	"description": "",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1691963556.json",
+	"mirror_portraits": false,
+	"name": "Lucy",
+	"nickname": "CEO",
+	"nickname_bool": false,
+	"offset_x": 0,
+	"offset_y": 0,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": ""
+		},
+		{
+			"name": "karen_angry",
+			"path": "res://assets/character_por/karen_work/karen_angry.png"
+		},
+		{
+			"name": "karen_angry2",
+			"path": "res://assets/character_por/karen_work/karen_angry2.png"
+		},
+		{
+			"name": "karen_annoyed",
+			"path": "res://assets/character_por/karen_work/karen_annoyed.png"
+		},
+		{
+			"name": "karen_crying",
+			"path": "res://assets/character_por/karen_work/karen_crying.png"
+		},
+		{
+			"name": "karen_delighted",
+			"path": "res://assets/character_por/karen_work/karen_delighted.png"
+		},
+		{
+			"name": "karen_delighted2",
+			"path": "res://assets/character_por/karen_work/karen_delighted2.png"
+		},
+		{
+			"name": "karen_neutral",
+			"path": "res://assets/character_por/karen_work/karen_neutral.png"
+		},
+		{
+			"name": "karen_sad",
+			"path": "res://assets/character_por/karen_work/karen_sad.png"
+		},
+		{
+			"name": "karen_shocked",
+			"path": "res://assets/character_por/karen_work/karen_shocked.png"
+		},
+		{
+			"name": "karen_shocked_blush",
+			"path": "res://assets/character_por/karen_work/karen_shocked_blush.png"
+		},
+		{
+			"name": "karen_sleep",
+			"path": "res://assets/character_por/karen_work/karen_sleep.png"
+		},
+		{
+			"name": "karen_sleepy",
+			"path": "res://assets/character_por/karen_work/karen_sleepy.png"
+		},
+		{
+			"name": "karen_smile",
+			"path": "res://assets/character_por/karen_work/karen_smile.png"
+		},
+		{
+			"name": "karen_smile2",
+			"path": "res://assets/character_por/karen_work/karen_smile2.png"
+		},
+		{
+			"name": "karen_smile_blush",
+			"path": "res://assets/character_por/karen_work/karen_smile_blush.png"
+		},
+		{
+			"name": "karen_smug",
+			"path": "res://assets/character_por/karen_work/karen_smug.png"
+		},
+		{
+			"name": "karen_smug2",
+			"path": "res://assets/character_por/karen_work/karen_smug2.png"
+		},
+		{
+			"name": "karen__o",
+			"path": "res://assets/character_por/karen_work/karen__o.png"
+		}
+	],
+	"scale": 46,
+	"theme": "theme-1691963629.cfg"
+}

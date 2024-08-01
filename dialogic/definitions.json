@@ -1,0 +1,76 @@
+{
+	"glossary": [
+		{
+			"extra": "",
+			"id": "1690167102-918",
+			"name": "thirsty",
+			"text": "Help the frog look for some water to hydrate him!",
+			"title": "The Frog is Thirsty!",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1690166936-648",
+			"name": "frog",
+			"text": "its just a frog, don't look into it too much",
+			"title": "its froggy",
+			"type": 1
+		}
+	],
+	"variables": [
+		{
+			"id": "1691626794-970",
+			"name": "likeTrees",
+			"type": 0,
+			"value": "true"
+		},
+		{
+			"id": "1690167514-483",
+			"name": "locations",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1690166937-787",
+			"name": "s-tree",
+			"type": 0,
+			"value": "false"
+		},
+		{
+			"id": "1690167015-146",
+			"name": "t-hill",
+			"type": 0,
+			"value": "false"
+		},
+		{
+			"id": "1690166944-366",
+			"name": "u-log",
+			"type": 0,
+			"value": "false"
+		},
+		{
+			"id": "1693855107-587",
+			"name": "Love_meter",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1693855091-867",
+			"name": "Hiring_meter",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1693782427-749",
+			"name": "op_company_values",
+			"type": 0,
+			"value": "false"
+		},
+		{
+			"id": "1692485125-768",
+			"name": "talked_daniel",
+			"type": 0,
+			"value": "false"
+		}
+	]
+}

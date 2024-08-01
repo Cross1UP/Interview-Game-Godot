@@ -1,0 +1,65 @@
+{
+	"color": "#ff15b064",
+	"description": "hDaniel",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1692481878.json",
+	"mirror_portraits": false,
+	"name": "Daniel",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 0,
+	"offset_y": 2,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": ""
+		},
+		{
+			"name": "hDaniel_angry",
+			"path": "res://assets/character_por/hDaniel/hDaniel_angry.png"
+		},
+		{
+			"name": "hDaniel_angry2",
+			"path": "res://assets/character_por/hDaniel/hDaniel_angry2.png"
+		},
+		{
+			"name": "hDaniel_laugh",
+			"path": "res://assets/character_por/hDaniel/hDaniel_laugh.png"
+		},
+		{
+			"name": "hDaniel_neutral",
+			"path": "res://assets/character_por/hDaniel/hDaniel_neutral.png"
+		},
+		{
+			"name": "hDaniel_sad",
+			"path": "res://assets/character_por/hDaniel/hDaniel_sad.png"
+		},
+		{
+			"name": "hDaniel_sleepy",
+			"path": "res://assets/character_por/hDaniel/hDaniel_sleepy.png"
+		},
+		{
+			"name": "hdaniel_smile",
+			"path": "res://assets/character_por/hDaniel/hdaniel_smile.png"
+		},
+		{
+			"name": "hDaniel_smile2",
+			"path": "res://assets/character_por/hDaniel/hDaniel_smile2.png"
+		},
+		{
+			"name": "hDaniel_smile3",
+			"path": "res://assets/character_por/hDaniel/hDaniel_smile3.png"
+		},
+		{
+			"name": "hDaniel_smirk",
+			"path": "res://assets/character_por/hDaniel/hDaniel_smirk.png"
+		},
+		{
+			"name": "hDaniel_surprised",
+			"path": "res://assets/character_por/hDaniel/hDaniel_surprised.png"
+		}
+	],
+	"scale": 50,
+	"theme": "theme-1692481897.cfg"
+}

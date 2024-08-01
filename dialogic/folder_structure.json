@@ -1,0 +1,136 @@
+{
+	"files": [
+
+	],
+	"folders": {
+		"Characters": {
+			"files": [
+				"character-1691980664.json",
+				"character-1691963556.json",
+				"character-1692481878.json",
+				"character-1694406629.json"
+			],
+			"folders": {
+
+			},
+			"metadata": {
+				"color": null,
+				"folded": false
+			}
+		},
+		"Definitions": {
+			"files": [
+
+			],
+			"folders": {
+				"Main Game": {
+					"files": [
+						"1692485125-768",
+						"1693782427-749",
+						"1693855091-867",
+						"1693855107-587"
+					],
+					"folders": {
+
+					},
+					"metadata": {
+						"color": null,
+						"folded": false
+					}
+				},
+				"Old Game": {
+					"files": [
+						"1690166936-648",
+						"1690166937-787",
+						"1690166944-366",
+						"1690167015-146",
+						"1690167102-918",
+						"1691626794-970",
+						"1690167514-483"
+					],
+					"folders": {
+
+					},
+					"metadata": {
+						"color": null,
+						"folded": true
+					}
+				}
+			},
+			"metadata": {
+				"color": null,
+				"folded": false
+			}
+		},
+		"Themes": {
+			"files": [
+				"default-theme.cfg",
+				"theme-1690080783.cfg",
+				"theme-1691963629.cfg",
+				"theme-1692481897.cfg",
+				"theme-1693863310.cfg",
+				"theme-1694404788.cfg"
+			],
+			"folders": {
+
+			},
+			"metadata": {
+				"color": null,
+				"folded": false
+			}
+		},
+		"Timelines": {
+			"files": [
+
+			],
+			"folders": {
+				"Endings": {
+					"files": [
+						"timeline-1694457096.json",
+						"timeline-1694457109.json",
+						"timeline-1694024364.json"
+					],
+					"folders": {
+
+					},
+					"metadata": {
+						"color": null,
+						"folded": true
+					}
+				},
+				"Main": {
+					"files": [
+						"timeline-1691979836.json",
+						"timeline-1693847331.json",
+						"timeline-1693870640.json"
+					],
+					"folders": {
+
+					},
+					"metadata": {
+						"color": null,
+						"folded": false
+					}
+				},
+				"misc": {
+					"files": [
+						"timeline-1691625427.json",
+						"timeline-1690085338.json",
+						"timeline-1690083442.json"
+					],
+					"folders": {
+
+					},
+					"metadata": {
+						"color": null,
+						"folded": true
+					}
+				}
+			},
+			"metadata": {
+				"color": null,
+				"folded": false
+			}
+		}
+	}
+}

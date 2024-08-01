@@ -1,0 +1,542 @@
+{
+	"events": [
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1694404788.cfg"
+		},
+		{
+			"background": "res://assets/backgrounds/True Backgrounds/Train_Tunnel.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 2
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "On any ordinary day, you would have been home applying for multiple jobs. Like any other day, you would have been ghosted. It would be a miracle if you were even told that you were rejected.\nBut today is not an ordinary day. This time, the circumstances have changed.\nYou've been scheduled for an interview at [color=#f6c0f1]Angel Enterprise[/color]. There, they will decide what your position will be if you even get hired in the first place."
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 0,
+			"file": "res://assets/audio/Past Sadness.mp3",
+			"volume": 0
+		},
+		{
+			"character": "character-1691980664.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "This company is a huge deal! They're the leading corporation behind so much media. If I do well, this might just be the turning point of my life.\nBut to be interviewed by the CEO herself...I can't believe it! I've got to make this count."
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1694404788.cfg"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You see someone in your peripheral wearing an Angel Enterprise employee badge."
+		},
+		{
+			"character": "character-1691980664.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Huh, looks like I won't be the only taking this train route to work.\nHey! Maybe I should approach him for some pointers. That could really help improve my chances.\nBut maybe they don't want to be disturbed. Argh, I don't know what to do."
+		},
+		{
+			"character": "character-1691980664.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "What should I do?"
+		},
+		{
+			"choice": "Approach the man.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1692485125-768",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "true"
+		},
+		{
+			"character": "character-1691980664.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Alright, wouldn't hurt to try."
+		},
+		{
+			"choice": "Leave him be",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1691980664.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Yeah, I should leave him be. Maybe I'll talk to him later down the line if I get hired."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://assets/audio/UI Effects2/651590__jotraing__ding-station-annoucement-notification.wav",
+			"volume": -10
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "The train comes to a stop, and you head towards Angel Enterprise's HQ. Ready to take on your interview."
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"background": "",
+			"event_id": "dialogic_021"
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "",
+			"volume": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"change_timeline": "timeline-1693847331.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You approached the man."
+		},
+		{
+			"animation": "1-fade_in.gd",
+			"animation_length": 2,
+			"animation_wait": true,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1692481878.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "hDaniel_sleepy",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 3,
+			"waiting_skippable": true
+		},
+		{
+			"character": "character-1691980664.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Um, excuse me."
+		},
+		{
+			"character": "character-1692481878.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": ". . ."
+		},
+		{
+			"character": "character-1691980664.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": " [speed=15] [wave amp=50 freq=2] Helloooo??? [/wave]"
+		},
+		{
+			"character": "character-1692481878.json",
+			"event_id": "dialogic_001",
+			"portrait": "hDaniel_surprised",
+			"text": "Huh!?"
+		},
+		{
+			"character": "character-1692481878.json",
+			"event_id": "dialogic_001",
+			"portrait": "hDaniel_neutral",
+			"text": "Oh sorry, I was listening to my music. Can I help you?"
+		},
+		{
+			"character": "character-1691980664.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I couldn't help to notice your badge. Do you happen to work at Angel Enterprise?"
+		},
+		{
+			"character": "character-1692481878.json",
+			"event_id": "dialogic_001",
+			"portrait": "hdaniel_smile",
+			"text": "Yes, I do! My name is [color=#98ffbc]Daniel[/color], team supervisor. Nice to meet you!"
+		},
+		{
+			"character": "character-1691980664.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Nice to meet you too! Sorry for disturbing you, but may I ask something of you?"
+		},
+		{
+			"character": "character-1692481878.json",
+			"event_id": "dialogic_001",
+			"portrait": "hdaniel_smile",
+			"text": "Sure, how can I help you?"
+		},
+		{
+			"character": "character-1691980664.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I actually have an interview today at Angel Enterprise and I was wondering if you could answer some questions."
+		},
+		{
+			"character": "character-1692481878.json",
+			"event_id": "dialogic_001",
+			"portrait": "hDaniel_surprised",
+			"text": "Oh? You got an interview?"
+		},
+		{
+			"character": "character-1692481878.json",
+			"event_id": "dialogic_001",
+			"portrait": "hdaniel_smile",
+			"text": "Yeah, no problem! I'd be more than happy to help you out. I remember when I took my interview. "
+		},
+		{
+			"event_id": "dialogic_015",
+			"id": "anchor-1634488067",
+			"index": 0,
+			"name": "Questions"
+		},
+		{
+			"character": "character-1692481878.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "hDaniel_smirk",
+			"question": "What do you want to ask me about?"
+		},
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1693863310.cfg"
+		},
+		{
+			"choice": "The Company",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1691980664.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "What can you tell me about Angel Enterprise?"
+		},
+		{
+			"character": "character-1692481878.json",
+			"event_id": "dialogic_001",
+			"portrait": "hDaniel_neutral",
+			"text": " Hmm, nothing much. We're a huge company that specializes in the entertainment industry. So movies, shows, games, and other form of content."
+		},
+		{
+			"character": "character-1692481878.json",
+			"event_id": "dialogic_001",
+			"portrait": "hdaniel_smile",
+			"text": " But most people at HQ are more concerned about profits, marketing, apps, etc. You may have heard that the company broke its profits record last year. Since then, the pressure has been on."
+		},
+		{
+			"character": "character-1692481878.json",
+			"event_id": "dialogic_001",
+			"portrait": "hDaniel_smile3",
+			"text": "However, I don't mind! The workplace environment is great."
+		},
+		{
+			"anchor_id": "anchor-1634488067",
+			"event_id": "dialogic_016"
+		},
+		{
+			"choice": "The CEO",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1691980664.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "What's the CEO like?"
+		},
+		{
+			"character": "character-1692481878.json",
+			"event_id": "dialogic_001",
+			"portrait": "hDaniel_sad",
+			"text": "The CEO?"
+		},
+		{
+			"character": "character-1692481878.json",
+			"event_id": "dialogic_001",
+			"portrait": "hDaniel_smile3",
+			"text": "Oh yeah, she's cool! Always making sure our needs are met, which is a big contrast when you think of big corporations."
+		},
+		{
+			"character": "character-1692481878.json",
+			"event_id": "dialogic_001",
+			"portrait": "hDaniel_smirk",
+			"text": "Why do you ask?"
+		},
+		{
+			"character": "character-1691980664.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "When I got the call, I was told that \"Lucy\", the CEO of the company would personally interview me."
+		},
+		{
+			"character": "character-1692481878.json",
+			"event_id": "dialogic_001",
+			"portrait": "hDaniel_surprised",
+			"text": "LUCY IS GOING TO INTERVIEW YOU?!"
+		},
+		{
+			"character": "character-1692481878.json",
+			"event_id": "dialogic_001",
+			"portrait": "hDaniel_neutral",
+			"text": "[speed=13]. . . [speed=3] Sorry I didn't mean to yell. I just wasn't expecting you to be interviewed by her.\nShe's very hard-working and has keen eye for talent. Impressing her is going to be tough."
+		},
+		{
+			"character": "character-1692481878.json",
+			"event_id": "dialogic_001",
+			"portrait": "hDaniel_sleepy",
+			"text": "There are a few things to keep in mind. "
+		},
+		{
+			"character": "character-1691980664.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "And what's that?"
+		},
+		{
+			"character": "character-1692481878.json",
+			"event_id": "dialogic_001",
+			"portrait": "hDaniel_angry",
+			"text": "1. Follow the [color=#FFD700]company values[/color]. She expects all of us to follow them. They're basically the golden rule.\n2. Stay on topic. Try not to bring up stuff that won't contribute to the conversation.\n3. She's a shrewd business woman, meaning any smartass responses won't bold well.\n[speed=13]. . . [speed=5]For you I mean."
+		},
+		{
+			"character": "character-1692481878.json",
+			"event_id": "dialogic_001",
+			"portrait": "hDaniel_neutral",
+			"text": "Finally, try complementing her. She's very stressed a lot of the time, so showing her some appreciation goes a long way."
+		},
+		{
+			"definition": "1693782427-749",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "true"
+		},
+		{
+			"anchor_id": "anchor-1634488067",
+			"event_id": "dialogic_016"
+		},
+		{
+			"choice": "Your job",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1691980664.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "What's exactly your job?"
+		},
+		{
+			"character": "character-1692481878.json",
+			"event_id": "dialogic_001",
+			"portrait": "hDaniel_smirk",
+			"text": "I'm in charge of supervising my team, but I guess that's oversimplifying too much.\nEssentially, I make sure that everyone is performing up to our standard. I train new employees, and keep our current ones up to date. I've also had the unfortunate duty to fire some people."
+		},
+		{
+			"character": "character-1692481878.json",
+			"event_id": "dialogic_001",
+			"portrait": "hdaniel_smile",
+			"text": "I can't get much more into detail, and I doubt it'll help you out in your interview."
+		},
+		{
+			"anchor_id": "anchor-1634488067",
+			"event_id": "dialogic_016"
+		},
+		{
+			"choice": "I think I'm good",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "Company values",
+			"condition": "",
+			"definition": "1693782427-749",
+			"event_id": "dialogic_011",
+			"value": "true"
+		},
+		{
+			"character": "character-1692481878.json",
+			"event_id": "dialogic_001",
+			"portrait": "hDaniel_smile2",
+			"text": " Well, the company has something that they follow called [speed=15][color=#FFD700]A.C.T.I.O.N.[/color][speed=3], which is an acronym.\nIt stands for Accountability, Community, Transparency, Innovation, Optimism, and Niceness. Don't forget it."
+		},
+		{
+			"anchor_id": "anchor-1634488067",
+			"event_id": "dialogic_016"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1691980664.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I think that's everything!"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://assets/audio/UI Effects2/651590__jotraing__ding-station-annoucement-notification.wav",
+			"volume": -10
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 2
+		},
+		{
+			"character": "character-1692481878.json",
+			"event_id": "dialogic_001",
+			"portrait": "hDaniel_surprised",
+			"text": "Looks like it's our stop is here."
+		},
+		{
+			"character": "character-1692481878.json",
+			"event_id": "dialogic_001",
+			"portrait": "hDaniel_laugh",
+			"text": "Just keep calm and you'll do great. I'm rooting for you!"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "The train comes to a stop, and you head towards Angel Enterprise's HQ. Ready to take on your interview."
+		},
+		{
+			"animation": "4-fade_out.gd",
+			"animation_length": 3,
+			"animation_wait": true,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1692481878.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 3,
+			"file": "",
+			"volume": 0
+		},
+		{
+			"background": "",
+			"event_id": "dialogic_021"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"change_timeline": "timeline-1693847331.json",
+			"event_id": "dialogic_020"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1691979836.json",
+		"name": "opening"
+	}
+}

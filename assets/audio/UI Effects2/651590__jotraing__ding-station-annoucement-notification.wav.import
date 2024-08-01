@@ -1,0 +1,23 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/651590__jotraing__ding-station-annoucement-notification.wav-1be8ab80ffe7cc5a6e18b9720e88a9fb.sample"
+
+[deps]
+
+source_file="res://assets/audio/UI Effects2/651590__jotraing__ding-station-annoucement-notification.wav"
+dest_files=[ "res://.import/651590__jotraing__ding-station-annoucement-notification.wav-1be8ab80ffe7cc5a6e18b9720e88a9fb.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0
